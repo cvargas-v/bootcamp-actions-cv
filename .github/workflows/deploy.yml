@@ -1,0 +1,14 @@
+#nombre asignado al workflow
+name: Deploy to server 
+
+#accion en la que se activara el deploy
+on: push
+
+#tareas a realizar
+jobs: 
+    first_jobs:
+        runs-on: ubuntu-latest
+ 
+        steps:
+            - name: Hola mundo
+              run: echo "Hola mundo"
